@@ -23,7 +23,7 @@
         update_cache: yes
     - name: install docker packages
       apt:
-        name: "{{ item }}
+        name: "{{ item }}"
         state: present
         update_cache: true
         loop:
@@ -31,5 +31,5 @@
           - docker-ce-cli
           - containerd.io
     - name: Set current user to docker group
-      command: usermod -aG docker {{ ansible_user }}
+      command: usermod -aG docker ubuntu
 
