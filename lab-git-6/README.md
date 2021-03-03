@@ -1,5 +1,5 @@
 # LAB 6
- Deleting, Renaming stashing
+ Deleting, Renaming, stashing
 
 ## Deleting
 ```shell
