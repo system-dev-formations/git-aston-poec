@@ -23,7 +23,10 @@
         update_cache: yes
     - name: install docker packages
       apt:
-        pkg:
+        name: "{{ item }}
+        state: present
+        update_cache: true
+        loop:
           - docker-ce
           - docker-ce-cli
           - containerd.io

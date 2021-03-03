@@ -7,10 +7,10 @@ Checkout a branch
 ```git checkout -b squash-branch```
 let's create 2 commits in the new branch , which we can squash together. 
 ```shell
-echo "1" >> README.md
+echo "1" >> README_CENTOS.md
 git add .
 git commit -m "wip1"
-echo "2" >> README.md
+echo "2" >> README_CENTOS.md
 git add .
 git commit -m "wip2"
 # check 

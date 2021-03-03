@@ -24,7 +24,7 @@ cd .git   # change directory
 # compare with the remote directory 
 ls -alrt # check
 cd ..  
-echo "# Project-1" > README.md # First file
+echo "# Project-1" > README_CENTOS.md # First file
 git config --global user.name "First-name Last-name" # register name
 git config --global user.email emailAddress@provider #  register email
 git config --global core.autocrlf input # for Linux user
